@@ -19,6 +19,6 @@ public class ApiTest {
 
     @PostMapping("/sendEmail")
     public Boolean sendEmail(){
-        return emailService.sendEmail("virusneerajkumarjha@gmail.com","test","Testing");
+        return emailService.sendEmail("","test","Testing");
     }
 }
